@@ -77,8 +77,6 @@ public:
 	GrannySmith() : Apple("green", "Granny Smith apple") { }
 };
 
-
-
 int main()
 {
 	// --***=== Task 1 ===***--
@@ -105,5 +103,19 @@ int main()
 	cout << "My " << b.get_name() << " is " << b.get_color() << ".\n";
 	cout << "My " << c.get_name() << " is " << c.get_color() << ".\n";
 	return 0;
-
 }
+
+	// --***=== Task 3 ===***--
+/*
+	-== BLACK JACK ==-
+	* class Player
+	|	* class Diller
+
+	* class Field
+	|	* class Box
+
+	* class Deck
+	|	* * class Card
+	
+	*** 6 classes
+*/
