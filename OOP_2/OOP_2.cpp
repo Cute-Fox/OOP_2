@@ -4,7 +4,6 @@
 using namespace std;
 
 size_t student_count;
-
 size_t get_count() { return student_count; }
 
 class Person {
@@ -112,7 +111,7 @@ int main()
 	|	* class Diller
 
 	* class Field
-	|	* class Box
+	|	* class Box 
 
 	* class Deck
 	|	* * class Card
